@@ -1,5 +1,5 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Root from './components/Root';
 
 // Export your top level component as JSX (for static rendering)
@@ -11,8 +11,8 @@ if (typeof document !== 'undefined') {
         ? ReactDOM.render
         : ReactDOM.hydrate || ReactDOM.render;
 
-    const render = Comp => {
-        renderMethod(<Comp/>, document.getElementById('root'))
+    const render = (Comp) => {
+        renderMethod(<Comp />, document.getElementById('root'));
     };
 
     // Render!
