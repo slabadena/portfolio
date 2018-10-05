@@ -1,0 +1,30 @@
+@import '../Root/style/variables';
+@import '../Root/style/mixins';
+
+$Feature: '.Feature';
+
+#{$Feature} {
+    &__icon {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 32px;
+        margin-bottom: 15px;
+
+        svg {
+            display: block;
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+    &__title {
+        margin-bottom: 11px;
+    }
+
+    &__description {
+        opacity: 0.8;
+    }
+}

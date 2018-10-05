@@ -1,0 +1,216 @@
+@import '~susy/sass/susy';
+@import './family';
+
+@mixin headingGap {
+    margin-bottom: 40px;
+
+    @include respond-to('prebig') {
+        margin-bottom: 20px;
+    }
+}
+
+@mixin fontFace($fontsList) {
+    @each $fontsDir, $fontMap in $fontsList {
+
+        @each $label, $map in $fontMap {
+
+            $fontName: map-get($map, name);
+            $fontType: map-get($map, type);
+
+            @font-face {
+                font-family: $fontName;
+                src: url('#{$fontPath}#{$fontsDir}/#{$fontType}/#{$fontType}.eot');
+                src:
+                    url('#{$fontPath}#{$fontsDir}/#{$fontType}/#{$fontType}.eot?#iefix') format('embedded-opentype'),
+                    url('#{$fontPath}#{$fontsDir}/#{$fontType}/#{$fontType}.svg##{$fontName}') format('svg'),
+                    url('#{$fontPath}#{$fontsDir}/#{$fontType}/#{$fontType}.woff2') format('woff2'),
+                    url('#{$fontPath}#{$fontsDir}/#{$fontType}/#{$fontType}.woff') format('woff'),
+                    url('#{$fontPath}#{$fontsDir}/#{$fontType}/#{$fontType}.ttf') format('truetype');
+                font-weight: normal;
+                font-style: normal;
+            }
+        }
+    }
+}
+
+// Vertical paddings
+@mixin blockPaddingVertical($top: "", $bottom: "") {
+    $padding: (
+        desktop: 100px,
+        tablet: 50px,
+        mobile: 30px
+    );
+
+    @if $top == "top" {
+        padding-top: map-get($padding, desktop);
+
+        @include respond-to('increased') {
+            padding-top: map-get($padding, tablet);
+        }
+
+        @include respond-to('prebig') {
+            padding-top: map-get($padding, mobile);
+        }
+    }
+
+    @if $bottom == "bottom" {
+        padding-bottom: map-get($padding, desktop);
+
+        @include respond-to('increased') {
+            padding-bottom: map-get($padding, tablet);
+        }
+
+        @include respond-to('prebig') {
+            padding-bottom: map-get($padding, mobile);
+        }
+    }
+
+    @if $top == "" and $bottom == "" {
+        padding-top: map-get($padding, desktop);
+        padding-bottom: map-get($padding, desktop);
+
+        @include respond-to('increased') {
+            padding-top: map-get($padding, tablet);
+            padding-bottom: map-get($padding, tablet);
+        }
+
+        @include respond-to('prebig') {
+            padding-top: map-get($padding, mobile);
+            padding-bottom: map-get($padding, mobile);
+        }
+    }
+}
+
+// Horizontal paddings
+@mixin blockPaddingHorizontal {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@function unfoldTransition ($transition) {
+    // Default values
+    $property: all;
+    $duration: 0.3s;
+    $easing: ease; // Browser default is ease, which is what we want
+    $delay: null; // Browser default is 0, which is what we want
+    $defaultProperties: ($property, $duration, $easing, $delay);
+
+    // Grab transition properties if they exist
+    $unfoldedTransition: ();
+
+    @for $i from 1 through length($defaultProperties) {
+        $p: null;
+
+        @if $i <= length($transition) {
+            $p: nth($transition, $i);
+        }
+        @else {
+            $p: nth($defaultProperties, $i);
+        }
+
+        $unfoldedTransition: append($unfoldedTransition, $p);
+    }
+
+    @return $unfoldedTransition;
+}
+
+// Transition
+@mixin transition($transitions...) {
+    $unfoldedTransitions: ();
+
+    @each $transition in $transitions {
+        // stylelint-disable-next-line function-name-case
+        $unfoldedTransitions: append($unfoldedTransitions, unfoldTransition($transition), comma);
+    }
+
+    transition: $unfoldedTransitions;
+}
+
+// List reset
+@mixin list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+// Responsive
+@mixin respond-to($breakpoint) {
+    @if map-has-key($breakpoints, $breakpoint) {
+        @media screen and #{inspect(map-get($breakpoints, $breakpoint))} {
+            @content;
+        }
+    }
+    @else {
+        @error "Не указано значение для '#{$breakpoint}'.";
+    }
+}
+
+@mixin heading($type) {
+    @if ($type == 'h1') {
+        font-family: map-get($font-family, bold);
+        font-size: map-get($font-size, prehuge);
+        line-height: map-get($line-height, prelittle) * 1.1;
+
+        @include respond-to('increased') {
+            font-size: map-get($font-size, large);
+            line-height: map-get($line-height, little);
+        }
+
+        @include respond-to('prebig') {
+            font-size: map-get($font-size, semilarge);
+            line-height: map-get($line-height, little);
+        }
+    }
+    @else if ($type == 'h2') {
+        font-family: map-get($font-family, semibold);
+        font-size: map-get($font-size, large);
+        line-height: map-get($line-height, little);
+
+        @include respond-to('increased') {
+            font-size: map-get($font-size, semilarge);
+            line-height: map-get($line-height, little);
+        }
+
+        @include respond-to('prebig') {
+            font-size: map-get($font-size, mediumplus);
+            line-height: map-get($line-height, little);
+        }
+    }
+    @else if ($type == 'h3') {
+        font-family: map-get($font-family, semibold);
+        font-size: map-get($font-size, premedium);
+        line-height: map-get($line-height, little);
+
+        @include respond-to('prebig') {
+            font-size: map-get($font-size, default);
+            line-height: map-get($line-height, little);
+        }
+    }
+    @else if ($type == 'h4') {
+        font-family: map-get($font-family, semibold);
+        font-size: map-get($font-size, default);
+        line-height: map-get($line-height, little);
+
+        @include respond-to('prebig') {
+            font-size: map-get($font-size, predefault);
+            line-height: map-get($line-height, little);
+        }
+    }
+    @else if ($type == 'h5') {
+        font-family: map-get($font-family, regular);
+        font-size: map-get($font-size, default);
+        line-height: map-get($line-height, medium);
+
+        @include respond-to('prebig') {
+            font-size: map-get($font-size, smallplus);
+        }
+    }
+    @else if ($type == 'h6') {
+        font-size: map-get($font-size, extrasmall);
+        line-height: map-get($line-height, presmall);
+    }
+    @else {
+        @error 'Heading type is not defined.';
+    }
+}
+

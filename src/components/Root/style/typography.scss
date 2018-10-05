@@ -1,0 +1,80 @@
+body {
+    font-weight: 400;
+    font-family: map-get($font-family, regular);
+    font-size: map-get($font-size, smallplus);
+    line-height: map-get($line-height, small);
+    color: map-get($colors, mineShaft);
+    -webkit-font-smoothing: antialiased;
+}
+
+p,
+img,
+iframe {
+    margin-bottom: 1.3em;
+}
+
+img,
+iframe {
+    position: relative;
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: map-get($colors, mineShaft);
+}
+
+h1 {
+    @include heading('h1');
+}
+
+h2 {
+    @include heading('h2');
+}
+
+h3 {
+    @include heading('h3');
+}
+
+h4 {
+    @include heading('h4');
+}
+
+h5 {
+    @include heading('h5');
+}
+
+h6 {
+    @include heading('h6');
+}
+
+a {
+    color: map-get($colors, mineShaft);
+    text-decoration: underline;
+}
+
+ul,
+ol {
+    margin-bottom: 1.3em;
+    padding-left: map-get($font-size, default) * map-get($line-height, small);
+}
+
+ul li {
+    list-style: disc;
+    list-style-position: outside;
+}
+
+strong {
+    font-family: map-get($font-family, bold);
+}
+
+i {
+    font-family: map-get($font-family, italic);
+}

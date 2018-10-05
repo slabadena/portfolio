@@ -1,0 +1,122 @@
+@import '../Root/style/variables';
+@import '../Root/style/mixins';
+
+$Button: '.Button';
+$linkButton: 'a.Button';
+
+#{$Button},
+#{$linkButton} {
+    display: inline-flex;
+    justify-content: center;
+    padding: 0.85em 2.2em;
+    font-family: map-get($font-family, medium);
+    font-size: map-get($font-size, default);
+    line-height: map-get($line-height, prelittle);
+    color: map-get($colors, martinique);
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    appearance: none;
+    border: 1px solid map-get($colors, white);
+    border-radius: 4px;
+    background-color: map-get($colors, white);
+    @include transition(color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease);
+
+    &:hover {
+        color: map-get($colors, white);
+        background-color: transparent;
+    }
+
+    &#{$Button}_size_full {
+        width: 100%;
+    }
+
+    //&#{$Button}_size_big {
+    //    min-width: 489px;
+    //}
+
+    &#{$Button}_size_medium {
+        min-width: 212px;
+    }
+
+    &#{$Button}_size_small {
+        max-width: 104px;
+        padding-top: 0.45em;
+        padding-bottom: 0.45em;
+    }
+
+    &#{$Button}_theme_primary {
+        border: 1px solid map-get($colors, white);
+        background-color: map-get($colors, white);
+
+        &:hover {
+            color: map-get($colors, white);
+            background-color: transparent;
+        }
+    }
+
+    //&#{$Button}_theme_alert {
+    //    border-color: map-get($colors, signal-orange);
+    //    background-color: map-get($colors, signal-orange);
+    //
+    //    &:hover {
+    //        color: map-get($colors, signal-orange);
+    //        background: transparent;
+    //    }
+    //}
+
+    //&#{$Button}_theme_secondary {
+    //    border-color: map-get($colors, activate);
+    //    background-color: map-get($colors, activate);
+    //
+    //    &:hover {
+    //        color: map-get($colors, activate);
+    //        background-color: transparent;
+    //    }
+    //}
+
+    //&#{$Button}_theme_disabled {
+    //    color: map-get($colors, asfalt-black);
+    //    border-color: map-get($colors, light-gray);
+    //    background-color: map-get($colors, light-gray);
+    //
+    //    &:hover {
+    //        color: map-get($colors, asfalt-black);
+    //        background-color: transparent;
+    //    }
+    //}
+
+    //&#{$Button}_theme_light {
+    //    color: map-get($colors, activate-dark);
+    //    border-color: rgba(map-get($colors, white), 0.8);
+    //    background-color: rgba(map-get($colors, white), 0.8);
+    //
+    //    &:hover {
+    //        background-color: transparent;
+    //    }
+    //}
+
+    //&#{$Button}_theme_dark {
+    //    border-color: rgba(map-get($colors, asfalt-black), 0.2);
+    //    background-color: rgba(map-get($colors, asfalt-black), 0.2);
+    //
+    //    &:hover {
+    //        background-color: transparent;
+    //    }
+    //}
+
+    //&#{$Button}_theme_pale {
+    //    color: map-get($colors, asfalt-black);
+    //    border-color: map-get($colors, white);
+    //    background-color: map-get($colors, white);
+    //
+    //    &:hover {
+    //        background-color: transparent;
+    //    }
+    //}
+
+    //&#{$Button}_disabled {
+    //    pointer-events: none;
+    //    opacity: 0.6;
+    //}
+}

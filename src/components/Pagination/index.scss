@@ -1,0 +1,31 @@
+@import '../Root/style/variables';
+@import '../Root/style/mixins';
+
+$Pagination: '.Pagination';
+
+#{$Pagination} {
+    display: flex;
+    font-family: map-get($font-family, medium);
+    font-size: map-get($font-size, smallplus);
+    line-height: map-get($line-height, prelittle);
+    color: map-get($colors, mineShaft);
+
+    &__button {
+        cursor: pointer;
+
+        @include transition(opacity 0.2s ease);
+    }
+
+    &__button_disabled {
+        pointer-events: none;
+        opacity: 0.2;
+    }
+
+    &__pos {
+        margin: 0 36px;
+
+        span {
+            padding: 0 5px;
+        }
+    }
+}

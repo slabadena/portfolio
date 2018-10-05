@@ -1,0 +1,124 @@
+// Font-face
+$fontPath: '/fonts/';
+$fontList: (
+    montserrat: (
+        bold: (
+            name: 'montserratbold',
+            type: 'bold'
+        ),
+        italic: (
+            name: 'montserratitalic',
+            type: 'italic'
+        ),
+        light: (
+            name: 'montserratlight',
+            type: 'light'
+        ),
+        medium: (
+            name: 'montserratmedium',
+            type: 'medium'
+        ),
+        regular: (
+            name: 'montserratregular',
+            type: 'regular'
+        ),
+        semibold: (
+            name: 'montserratsemibold',
+            type: 'semibold'
+        )
+    )
+);
+
+// Font-family
+$font-family: (
+    bold: #{'montserratbold', Helvetica, Arial, sans-serif},
+    italic: #{'montserratitalic', Helvetica, Arial, sans-serif},
+    light: #{'montserratlight', Helvetica, Arial, sans-serif},
+    medium: #{'montserratmedium', Helvetica, Arial, sans-serif},
+    regular: #{'montserratregular', Helvetica, Arial, sans-serif},
+    semibold: #{'montserratsemibold', Helvetica, Arial, sans-serif}
+);
+
+// Font-size
+$font-size: (
+    extrasmall: 12px,
+    smaller: 13px,
+    small: 14px,
+    smallplus: 15px,
+    predefault: 16px,
+    default: 18px,
+    premedium: 20px,
+    medium: 22px,
+    mediummore: 24px,
+    mediumplus: 25px,
+    prelarge: 28px,
+    semilarge: 30px,
+    afterlarge: 40px,
+    large: 44px,
+    largeplus: 48px,
+    prehuge: 54px,
+    huge: 64px,
+    extrahuge: 90px
+);
+
+// Line-height
+$line-height: (
+    prelittle: 1,
+    little: 1.2,
+    presmall: 1.3,
+    small: 1.4,
+    medium: 1.5,
+    prelarge: 1.56,
+    large: 1.6,
+    larger: 1.7,
+    afterlarge: 1.8
+);
+
+// Color
+$colors: (
+    white: #FFFFFF,
+    whisper: #FCFBFD,
+    whisperLight: #FAF9FC,
+    whiteLilac: #FCFCFE,
+    regentGray: #8E9BA9,
+    martinique: #3F3A57,
+    mineShaft: #333333,
+    black: #000000,
+    persimmon: #FE5759,
+    redOrange: #FF3333,
+    cinnabar: #EF3E41,
+    willowBrook: #EBF4E7,
+    silverTree: #65B99C,
+    aquamarineBlue: #7FD3E2
+);
+
+// Global
+$minWidth: 320px;
+$headerHeight: 60px;
+
+// Breakpoints
+$breakpoints: (
+    'presmall' : (max-width: 374px),
+    'beforesmall' : (max-width: 400px),
+    'small' : (max-width: 480px),
+    'ultrasmall' : (max-width: 550px),
+    'medium': (max-width: 640px),
+    'premedium': (max-width: 668px),
+    'prebig': (max-width: 767px),
+    'big': (max-width: 800px),
+    'intermediary': (max-width: 960px),
+    'increased': (max-width: 1024px),
+    'preincreased': (max-width: 1040px),
+    'huge': (max-width: 1260px),
+    'ultrahuge': (max-width: 1400px),
+    'premonsterhuge': (max-width: 1717px),
+    'monsterhuge': (max-width: 2000px)
+);
+
+// Grid
+$susy: (
+    columns: 16,
+    container: 1220px,
+    gutters: 1/4,
+    global-box-sizing: border-box
+);
