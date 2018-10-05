@@ -1,0 +1,21 @@
+@import '../Root/style/variables';
+@import '../Root/style/mixins';
+
+$Container: '.Container';
+
+#{$Container} {
+    position: relative;
+    background-color: map-get($colors, black);
+    overflow: hidden;
+
+    &__wrapper {
+        position: relative;
+        width: 1920px;
+        left: 50%;
+        transform: translateX(-50%);
+
+        img {
+            margin-bottom: 0;
+        }
+    }
+}
