@@ -20,7 +20,7 @@ const Picture = ({
 
     return (
         <img
-            src={src}
+            data-src={src}
             alt={alt}
             width={width}
             height={height}

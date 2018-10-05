@@ -35,3 +35,14 @@ button {
     outline: none;
     user-select: none;
 }
+
+.lazyload,
+.lazyloading {
+    opacity: 0;
+}
+
+.lazyloaded {
+    @include transition(opacity);
+
+    opacity: 1;
+}
