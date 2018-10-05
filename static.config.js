@@ -21,6 +21,7 @@ export default {
     getSiteData: () => ({
         title: 'React Static',
     }),
+    preact: false,
     getRoutes: async () => ([
         {
             path: '/',
@@ -107,6 +108,13 @@ export default {
                 ],
             }
         ];
+
+        // config.resolve = {
+        //     alias: {
+        //         'react': 'preact-compat',
+        //         'react-dom': 'preact-compat'
+        //     }
+        // };
 
         return config;
     }
