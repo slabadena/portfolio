@@ -8,13 +8,27 @@ import Layout from '../components/Layout';
  */
 const Home = () => (
     <Layout>
-        <nav>
-            <Link exact to="/">Home</Link>
+        <div style={{padding: '50px'}}>
+            <h1>Alena Salanovich - portfolio</h1>
 
             <br />
 
-            <Link to="/dms">DMS</Link>
-        </nav>
+            <nav>
+                <ul>
+                    <li>
+                        <Link exact to="/">Home</Link>
+                    </li>
+
+                    <li>
+                        <Link to="/dms">DMS</Link>
+                    </li>
+
+                    <li>
+                        <Link to="/loyal-north">Loyal North</Link>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </Layout>
 );
 

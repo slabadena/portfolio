@@ -32,6 +32,10 @@ export default {
         {
             path: '/dms',
             component: 'src/pages/CaseDMS',
+        },
+        {
+            path: '/loyal-north',
+            component: 'src/pages/CaseLoyalNorth',
         }
         // {
         //     path: '/about',
