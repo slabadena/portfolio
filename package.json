@@ -11,7 +11,8 @@
         "test": "jest",
         "eslint": "eslint ./src/**/*.js",
         "stylelint": "stylelint ./src/**/*.scss",
-        "precommit": "npm run eslint && npm run stylelint"
+        "precommit": "npm run eslint && npm run stylelint",
+        "deploy": "gh-pages -d dist"
     },
     "dependencies": {
         "axios": "^0.16.2",
@@ -38,6 +39,7 @@
         "eslint-plugin-react": "^7.11.1",
         "extract-text-webpack-plugin": "^3.0.2",
         "file-loader": "^2.0.0",
+        "gh-pages": "^2.0.1",
         "gulp": "^3.9.1",
         "gulp-imagemin": "^4.1.0",
         "husky": "^1.0.0",
