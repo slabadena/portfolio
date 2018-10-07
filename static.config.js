@@ -19,13 +19,17 @@ const fontLoader = generateFontConfig({PATHS, FONTS}); // Dynamic generation of 
 
 export default {
     getSiteData: () => ({
-        title: 'React Static',
+        title: 'Elena Solonovich - portfolio'
     }),
     preact: false,
     getRoutes: async () => ([
         {
             path: '/',
             component: 'src/pages/Home',
+        },
+        {
+            path: '/dms',
+            component: 'src/pages/CaseDMS',
         }
         // {
         //     path: '/about',
