@@ -12,6 +12,7 @@
         "eslint": "eslint ./src/**/*.js",
         "stylelint": "stylelint ./src/**/*.scss",
         "precommit": "npm run eslint && npm run stylelint",
+        "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
     },
     "dependencies": {
