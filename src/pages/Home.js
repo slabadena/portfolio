@@ -30,6 +30,10 @@ const Home = () => (
                     <li>
                         <Link to="/yandex-bus">Yandex.Bus</Link>
                     </li>
+
+                    <li>
+                        <Link to="/file-shark">File.Shark</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

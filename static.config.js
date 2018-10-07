@@ -40,6 +40,10 @@ export default {
         {
             path: '/yandex-bus',
             component: 'src/pages/CaseYandexBus',
+        },
+        {
+            path: '/file-shark',
+            component: 'src/pages/CaseFileShark',
         }
         // {
         //     path: '/about',
