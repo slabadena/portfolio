@@ -23,6 +23,7 @@ const universalOptions = {
 const t_1 = universal(import('../src/pages/CaseDMS'), universalOptions)
 const t_2 = universal(import('../src/pages/CaseLoyalNorth'), universalOptions)
 const t_3 = universal(import('../src/pages/CaseYandexBus'), universalOptions)
+const t_4 = universal(import('../src/pages/CaseFileShark'), universalOptions)
 
 
 // Template Map
@@ -30,7 +31,8 @@ global.componentsByTemplateID = global.componentsByTemplateID || [
   t_0,
 t_1,
 t_2,
-t_3
+t_3,
+t_4
 ]
 
 // Template Tree
