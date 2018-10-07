@@ -18,7 +18,8 @@ const FONTS = [
 const fontLoader = generateFontConfig({PATHS, FONTS}); // Dynamic generation of rules for fonts
 
 export default {
-    siteRoot: 'https://slabadena.github.io/portfolio/',
+    siteRoot: 'https://slabadena.github.io',
+    basePath: 'portfolio',
     getSiteData: () => ({
         title: 'Elena Solonovich - portfolio'
     }),
