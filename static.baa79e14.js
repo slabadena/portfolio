@@ -67,7 +67,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "https://slabadena.github.io/";
 /******/
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 10);
@@ -2345,4 +2345,4 @@ module.exports = require("lazysizes");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.7fd9ab40.js.map
+//# sourceMappingURL=static.baa79e14.js.map
