@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Classnames from 'classnames';
+import Spinner from '../Spinner';
+import './index.scss';
 
 /**
  * Renders Picture component
@@ -19,12 +21,20 @@ const Picture = ({
     });
 
     return (
-        <img
-            data-src={src}
-            alt={alt}
-            width={width}
-            height={height}
-            className={pictureClass} />
+        <div className="Picture">
+            <div className="Picture__spinner">
+                <Spinner />
+            </div>
+
+            <div className="Picture__image">
+                <img
+                    data-src={src}
+                    alt={alt}
+                    width={width}
+                    height={height}
+                    className={pictureClass} />
+            </div>
+        </div>
     );
 };
 

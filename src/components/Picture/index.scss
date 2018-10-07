@@ -1,0 +1,18 @@
+@import '../Root/style/variables';
+@import '../Root/style/mixins';
+
+$Picture: '.Picture';
+
+#{$Picture} {
+    position: relative;
+
+    &__spinner {
+        position: absolute;
+        display: block;
+        width: 40px;
+        height: 40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
