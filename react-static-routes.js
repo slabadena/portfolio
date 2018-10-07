@@ -21,12 +21,14 @@ const universalOptions = {
 
   const t_0 = universal(import('../src/pages/Home'), universalOptions)
 const t_1 = universal(import('../src/pages/CaseDMS'), universalOptions)
+const t_2 = universal(import('../src/pages/CaseLoyalNorth'), universalOptions)
 
 
 // Template Map
 global.componentsByTemplateID = global.componentsByTemplateID || [
   t_0,
-t_1
+t_1,
+t_2
 ]
 
 // Template Tree
