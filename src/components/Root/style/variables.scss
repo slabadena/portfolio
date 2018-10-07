@@ -31,12 +31,12 @@ $fontList: (
 
 // Font-family
 $font-family: (
-    bold: #{'montserratbold', Helvetica, Arial, sans-serif},
-    italic: #{'montserratitalic', Helvetica, Arial, sans-serif},
-    light: #{'montserratlight', Helvetica, Arial, sans-serif},
-    medium: #{'montserratmedium', Helvetica, Arial, sans-serif},
-    regular: #{'montserratregular', Helvetica, Arial, sans-serif},
-    semibold: #{'montserratsemibold', Helvetica, Arial, sans-serif}
+    bold: #{Helvetica, Arial, sans-serif},
+    italic: #{Helvetica, Arial, sans-serif},
+    light: #{Helvetica, Arial, sans-serif},
+    medium: #{Helvetica, Arial, sans-serif},
+    regular: #{Helvetica, Arial, sans-serif},
+    semibold: #{Helvetica, Arial, sans-serif}
 );
 
 // Font-size
