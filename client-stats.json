@@ -2,8 +2,8 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "5edec965b702bd5ef113",
-  "time": 10219,
+  "hash": "445f63bc35bf0c12324d",
+  "time": 13110,
   "publicPath": "https://slabadena.github.io/",
   "assetsByChunkName": {
     "src/pages/CaseDMS": [
@@ -16,9 +16,9 @@
     ],
     "main": [
       "main.5e5cecf8.js",
-      "styles.5edec965.css",
+      "styles.445f63bc.css",
       "main.5e5cecf8.js.map",
-      "styles.5edec965.css.map"
+      "styles.445f63bc.css.map"
     ],
     "bootstrap": [
       "bootstrap.27477c0c.js",
@@ -414,7 +414,7 @@
       "emitted": true
     },
     {
-      "name": "styles.5edec965.css",
+      "name": "styles.445f63bc.css",
       "size": 6608,
       "chunks": [
         2
@@ -458,7 +458,7 @@
       "emitted": true
     },
     {
-      "name": "styles.5edec965.css.map",
+      "name": "styles.445f63bc.css.map",
       "size": 96,
       "chunks": [
         2
@@ -491,9 +491,9 @@
         "bootstrap.27477c0c.js",
         "bootstrap.27477c0c.js.map",
         "main.5e5cecf8.js",
-        "styles.5edec965.css",
+        "styles.445f63bc.css",
         "main.5e5cecf8.js.map",
-        "styles.5edec965.css.map"
+        "styles.445f63bc.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -2277,9 +2277,9 @@
       ],
       "files": [
         "main.5e5cecf8.js",
-        "styles.5edec965.css",
+        "styles.445f63bc.css",
         "main.5e5cecf8.js.map",
-        "styles.5edec965.css.map"
+        "styles.445f63bc.css.map"
       ],
       "hash": "5e5cecf8c824b26aa5b5",
       "parents": [
@@ -4396,9 +4396,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react/cjs/react.production.min.js",
-          "issuerId": 54,
-          "issuerName": "./node_modules/react/cjs/react.production.min.js",
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-dom/cjs/react-dom.production.min.js",
+          "issuerId": 56,
+          "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -12982,9 +12982,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react/cjs/react.production.min.js",
-      "issuerId": 54,
-      "issuerName": "./node_modules/react/cjs/react.production.min.js",
+      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-dom/cjs/react-dom.production.min.js",
+      "issuerId": 56,
+      "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -20819,190 +20819,6 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 2730,
-          "names": [],
-          "files": [
-            "extract-text-webpack-plugin-output-filename"
-          ],
-          "hash": "5eeed29466e683b68956",
-          "parents": [],
-          "modules": [
-            {
-              "id": 0,
-              "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
-              "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-              "index": 0,
-              "index2": 1,
-              "size": 470,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": null,
-              "issuerId": null,
-              "issuerName": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".Picture{position:relative}.Picture__spinner{position:absolute;display:block;width:40px;height:40px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.Picture__image img{min-height:600px}.Picture__image img.lazyloaded{min-height:1px}\", \"\"]);\n\n// exports\n"
-            },
-            {
-              "id": 1,
-              "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/lib/css-base.js",
-              "name": "./node_modules/css-loader/lib/css-base.js",
-              "index": 1,
-              "index2": 0,
-              "size": 2260,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
-              "issuerId": 0,
-              "issuerName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [
-                {
-                  "moduleId": 0,
-                  "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
-                  "module": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-                  "type": "cjs require",
-                  "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
-                  "loc": "1:27-86"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 1,
-              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-            }
-          ],
-          "filteredModules": 0,
-          "origins": [
-            {
-              "moduleId": 0,
-              "module": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-              "loc": "",
-              "reasons": []
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "id": 0,
-          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
-          "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-          "index": 0,
-          "index2": 1,
-          "size": 470,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".Picture{position:relative}.Picture__spinner{position:absolute;display:block;width:40px;height:40px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.Picture__image img{min-height:600px}.Picture__image img.lazyloaded{min-height:1px}\", \"\"]);\n\n// exports\n"
-        },
-        {
-          "id": 1,
-          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/lib/css-base.js",
-          "name": "./node_modules/css-loader/lib/css-base.js",
-          "index": 1,
-          "index2": 0,
-          "size": 2260,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
-          "issuerId": 0,
-          "issuerName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
-              "module": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
-              "type": "cjs require",
-              "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
-              "loc": "1:27-86"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 1,
-          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-        }
-      ],
-      "filteredModules": 0,
-      "children": [],
-      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-0-2!node_modules/react-static/node_modules/postcss-loader/lib/index.js!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!src/components/Picture/index.scss"
-    },
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": "https://slabadena.github.io/",
-      "assetsByChunkName": {},
-      "assets": [],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "undefined": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "extract-text-webpack-plugin-output-filename"
-          ]
-        }
-      },
-      "chunks": [
-        {
-          "id": 0,
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "extraAsync": false,
           "size": 2685,
           "names": [],
           "files": [
@@ -21162,6 +20978,190 @@
       "filteredModules": 0,
       "children": [],
       "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-0-2!node_modules/react-static/node_modules/postcss-loader/lib/index.js!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!src/components/Container/index.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "https://slabadena.github.io/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ]
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "extraAsync": false,
+          "size": 2730,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "5eeed29466e683b68956",
+          "parents": [],
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
+              "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 470,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".Picture{position:relative}.Picture__spinner{position:absolute;display:block;width:40px;height:40px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.Picture__image img{min-height:600px}.Picture__image img.lazyloaded{min-height:1px}\", \"\"]);\n\n// exports\n"
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/lib/css-base.js",
+              "name": "./node_modules/css-loader/lib/css-base.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2260,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
+                  "module": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+                  "type": "cjs require",
+                  "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
+                  "loc": "1:27-86"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "moduleId": 0,
+              "module": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+              "loc": "",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
+          "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+          "index": 0,
+          "index2": 1,
+          "size": 470,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \".Picture{position:relative}.Picture__spinner{position:absolute;display:block;width:40px;height:40px;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.Picture__image img{min-height:600px}.Picture__image img.lazyloaded{min-height:1px}\", \"\"]);\n\n// exports\n"
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/lib/css-base.js",
+          "name": "./node_modules/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2260,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Picture/index.scss",
+              "module": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Picture/index.scss",
+              "type": "cjs require",
+              "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-86"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-0-2!node_modules/react-static/node_modules/postcss-loader/lib/index.js!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!src/components/Picture/index.scss"
     },
     {
       "errors": [],
