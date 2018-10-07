@@ -15,4 +15,14 @@ $Picture: '.Picture';
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+    &__image {
+        img {
+            min-height: 600px;
+
+            &.lazyloaded {
+                min-height: 1px;
+            }
+        }
+    }
 }

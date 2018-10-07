@@ -32,7 +32,7 @@ const CaseDMS = () => (
         metaDescription="Alena Salanovich - DMS"
         metaKeywords="Alena Salanovich - DMS">
         <Container>
-            <Picture src={introImage} alt="Intro" />
+            <Picture src={introImage} alt="Intro" spinner={false} />
 
             <Picture src={taskImage} alt="Task" />
 

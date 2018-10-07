@@ -14,7 +14,8 @@ const Picture = ({
     alt,
     width,
     height,
-    lazyload
+    lazyload,
+    spinner
 }) => {
     const pictureClass = Classnames({
         lazyload
@@ -22,9 +23,11 @@ const Picture = ({
 
     return (
         <div className="Picture">
-            <div className="Picture__spinner">
-                <Spinner />
-            </div>
+            {spinner && (
+                <div className="Picture__spinner">
+                    <Spinner />
+                </div>
+            )}
 
             <div className="Picture__image">
                 <img
@@ -43,11 +46,13 @@ Picture.propTypes = {
     alt: PropTypes.string,
     width: PropTypes.string,
     height: PropTypes.string,
-    lazyload: PropTypes.bool
+    lazyload: PropTypes.bool,
+    spinner: PropTypes.bool
 };
 
 Picture.defaultProps = {
-    lazyload: true
+    lazyload: true,
+    spinner: true
 };
 
 export default Picture;
