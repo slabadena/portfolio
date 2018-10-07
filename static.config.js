@@ -36,6 +36,10 @@ export default {
         {
             path: '/loyal-north',
             component: 'src/pages/CaseLoyalNorth',
+        },
+        {
+            path: '/yandex-bus',
+            component: 'src/pages/CaseYandexBus',
         }
         // {
         //     path: '/about',

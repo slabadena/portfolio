@@ -26,6 +26,10 @@ const Home = () => (
                     <li>
                         <Link to="/loyal-north">Loyal North</Link>
                     </li>
+
+                    <li>
+                        <Link to="/yandex-bus">Yandex.Bus</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
