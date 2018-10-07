@@ -2,27 +2,27 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "4685926da4c4b563dcd4",
-  "time": 11926,
+  "hash": "32918e4b402c1b537dca",
+  "time": 11691,
   "publicPath": "https://slabadena.github.io/portfolio/",
   "assetsByChunkName": {
     "src/pages/CaseDMS": [
-      "templates/src/pages/CaseDMS.a7689eee.js",
-      "templates/src/pages/CaseDMS.a7689eee.js.map"
+      "templates/src/pages/CaseDMS.b42af57b.js",
+      "templates/src/pages/CaseDMS.b42af57b.js.map"
     ],
     "src/pages/Home": [
-      "templates/src/pages/Home.7e505100.js",
-      "templates/src/pages/Home.7e505100.js.map"
+      "templates/src/pages/Home.29c7f88e.js",
+      "templates/src/pages/Home.29c7f88e.js.map"
     ],
     "main": [
       "main.ff62a706.js",
-      "styles.4685926d.css",
+      "styles.32918e4b.css",
       "main.ff62a706.js.map",
-      "styles.4685926d.css.map"
+      "styles.32918e4b.css.map"
     ],
     "bootstrap": [
-      "bootstrap.d20e7d82.js",
-      "bootstrap.d20e7d82.js.map"
+      "bootstrap.15480131.js",
+      "bootstrap.15480131.js.map"
     ]
   },
   "assets": [
@@ -369,7 +369,7 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/CaseDMS.a7689eee.js",
+      "name": "templates/src/pages/CaseDMS.b42af57b.js",
       "size": 9138,
       "chunks": [
         0
@@ -380,8 +380,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.7e505100.js",
-      "size": 4380,
+      "name": "templates/src/pages/Home.29c7f88e.js",
+      "size": 4199,
       "chunks": [
         1
       ],
@@ -403,7 +403,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.d20e7d82.js",
+      "name": "bootstrap.15480131.js",
       "size": 1536,
       "chunks": [
         3
@@ -414,7 +414,7 @@
       "emitted": true
     },
     {
-      "name": "styles.4685926d.css",
+      "name": "styles.32918e4b.css",
       "size": 6608,
       "chunks": [
         2
@@ -425,8 +425,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/CaseDMS.a7689eee.js.map",
-      "size": 52104,
+      "name": "templates/src/pages/CaseDMS.b42af57b.js.map",
+      "size": 52080,
       "chunks": [
         0
       ],
@@ -436,8 +436,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/pages/Home.7e505100.js.map",
-      "size": 19457,
+      "name": "templates/src/pages/Home.29c7f88e.js.map",
+      "size": 18772,
       "chunks": [
         1
       ],
@@ -458,7 +458,7 @@
       "emitted": true
     },
     {
-      "name": "styles.4685926d.css.map",
+      "name": "styles.32918e4b.css.map",
       "size": 96,
       "chunks": [
         2
@@ -469,7 +469,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.d20e7d82.js.map",
+      "name": "bootstrap.15480131.js.map",
       "size": 14371,
       "chunks": [
         3
@@ -488,12 +488,12 @@
         2
       ],
       "assets": [
-        "bootstrap.d20e7d82.js",
-        "bootstrap.d20e7d82.js.map",
+        "bootstrap.15480131.js",
+        "bootstrap.15480131.js.map",
         "main.ff62a706.js",
-        "styles.4685926d.css",
+        "styles.32918e4b.css",
         "main.ff62a706.js.map",
-        "styles.4685926d.css.map"
+        "styles.32918e4b.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -510,10 +510,10 @@
         "src/pages/CaseDMS"
       ],
       "files": [
-        "templates/src/pages/CaseDMS.a7689eee.js",
-        "templates/src/pages/CaseDMS.a7689eee.js.map"
+        "templates/src/pages/CaseDMS.b42af57b.js",
+        "templates/src/pages/CaseDMS.b42af57b.js.map"
       ],
-      "hash": "a7689eeeb5ed1d7d6ac9",
+      "hash": "b42af57b7cae692a9e29",
       "parents": [
         2
       ],
@@ -567,54 +567,6 @@
         },
         {
           "id": 173,
-          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-          "name": "./src/components/Head/index.js",
-          "index": 133,
-          "index2": 129,
-          "size": 1489,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0,
-            1
-          ],
-          "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
-          "issuerId": 51,
-          "issuerName": "./src/pages/Home.js",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 51,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
-              "module": "./src/pages/Home.js",
-              "moduleName": "./src/pages/Home.js",
-              "type": "cjs require",
-              "userRequest": "../components/Head",
-              "loc": "17:12-41"
-            },
-            {
-              "moduleId": 174,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-              "module": "./src/components/Layout/index.js",
-              "moduleName": "./src/components/Layout/index.js",
-              "type": "cjs require",
-              "userRequest": "../Head",
-              "loc": "15:12-30"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _favicon32x = require('../../assets/images/favicon-32x32.png');\n\nvar _favicon32x2 = _interopRequireDefault(_favicon32x);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders HeadContainer component\n * @param {Object}\n * @returns {JSX}\n */\nvar HeadContainer = function HeadContainer(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords;\n    return _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('meta', { name: 'Description', content: metaDescription }),\n        _react2.default.createElement('meta', { name: 'Keywords', content: metaKeywords }),\n        _react2.default.createElement(\n            'title',\n            null,\n            title\n        ),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: _favicon32x2.default })\n    );\n};\n\nHeadContainer.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string\n};\n\nexports.default = HeadContainer;"
-        },
-        {
-          "id": 174,
           "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
           "name": "./src/components/Layout/index.js",
           "index": 132,
@@ -629,9 +581,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/CaseDMS.js",
-          "issuerId": 52,
-          "issuerName": "./src/pages/CaseDMS.js",
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -662,6 +614,45 @@
           "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _Head = require('../Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nvar _Header = require('../Header');\n\nvar _Header2 = _interopRequireDefault(_Header);\n\nvar _Main = require('../Main');\n\nvar _Main2 = _interopRequireDefault(_Main);\n\nvar _Footer = require('../Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders Layout component\n * @param {Object}\n * @returns {JSX}\n */\nvar Layout = function Layout(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords,\n        children = _ref.children;\n    return _react2.default.createElement(\n        'div',\n        { className: 'Layout' },\n        _react2.default.createElement(_Head2.default, {\n            title: title,\n            metaDescription: metaDescription,\n            metaKeywords: metaKeywords }),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__header' },\n            _react2.default.createElement(_Header2.default, null)\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__main' },\n            _react2.default.createElement(\n                _Main2.default,\n                null,\n                children\n            )\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__footer' },\n            _react2.default.createElement(_Footer2.default, null)\n        )\n    );\n};\n\nLayout.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string,\n    children: _propTypes2.default.node\n};\n\nLayout.defaultProps = {\n    title: 'Alena Salanovich - portfolio',\n    metaDescription: 'Alena Salanovich - portfolio',\n    metaKeywords: 'Alena Salanovich - portfolio'\n};\n\nexports.default = Layout;"
         },
         {
+          "id": 174,
+          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
+          "name": "./src/components/Head/index.js",
+          "index": 133,
+          "index2": 129,
+          "size": 1489,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+          "issuerId": 173,
+          "issuerName": "./src/components/Layout/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 173,
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+              "module": "./src/components/Layout/index.js",
+              "moduleName": "./src/components/Layout/index.js",
+              "type": "cjs require",
+              "userRequest": "../Head",
+              "loc": "15:12-30"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 5,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _favicon32x = require('../../assets/images/favicon-32x32.png');\n\nvar _favicon32x2 = _interopRequireDefault(_favicon32x);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders HeadContainer component\n * @param {Object}\n * @returns {JSX}\n */\nvar HeadContainer = function HeadContainer(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords;\n    return _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('meta', { name: 'Description', content: metaDescription }),\n        _react2.default.createElement('meta', { name: 'Keywords', content: metaKeywords }),\n        _react2.default.createElement(\n            'title',\n            null,\n            title\n        ),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: _favicon32x2.default })\n    );\n};\n\nHeadContainer.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string\n};\n\nexports.default = HeadContainer;"
+        },
+        {
           "id": 175,
           "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/url-loader/index.js??ref--0-oneOf-9!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/assets/images/favicon-32x32.png",
           "name": "./src/assets/images/favicon-32x32.png",
@@ -678,14 +669,14 @@
           ],
           "assets": [],
           "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-          "issuerId": 173,
+          "issuerId": 174,
           "issuerName": "./src/components/Head/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 173,
+              "moduleId": 174,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
               "module": "./src/components/Head/index.js",
               "moduleName": "./src/components/Head/index.js",
@@ -697,7 +688,7 @@
           "usedExports": true,
           "providedExports": null,
           "optimizationBailout": [],
-          "depth": 5,
+          "depth": 6,
           "source": "module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAu5JREFUWAm9l01IVFEUx39vmsYwP/ugorISK0ozgkJqE0gGgRFURERUC0GEVtUmMBhoGy2CcGNB0SKICiKyWgh9rBJcZGURqGSShSmaEJo6nfPuvJ7jaL6rM3PgvXfPufee///dj3PvcZgipy/FShmjBof9MSgiRs6UJnaqw7ADX8TPc8I03rrsvJ/sQOqMRKOxSOcoV0Wri8UIefZUfh2HCfHXsCHCuWjUGVXfLgEF7xihSfRKNWZAmouzOKAk3D+N/3mmwPX/KuOYOO6cj/M2XcM+02i607GA8pAuuEyDKykXU7BDutpnYpl2u2CH3K2WdqTpARQ7PJd9HlkIO0th9QrIikDPd+jqgU55rERiTNiqgzTevB5qj8HSguSeLe/g9iMYGk6um8liFXByF8PZE4ngv0d81zu2wJJ8Xw9SshqB3dshLx6YP3bAjQfwox8K8+DwPujtM1MRBNhrY0VA59yTp68NuOoDQ4aMV2fztZqC/kHfdck6vzyfkhWB1g8wPm7gqvfCyWrIz50PPHanXncv3HkMf8YMaNUeuHJBiByE7EVzI+KcuihB0VJWLYeaI1BS5Hcc/GXIvWnzbUFKcyLgOd5VBofkDF270rPAzYfwosXXZytZrYGpzjTw1F+Du3qTiMvRKq8U7DsvAh5E0yu5c30zmsaJAouFaUVAF1p9LZSVeNDmq2eDFwEn5NI1OTomtkzWrAJR3XHYKPv//BnQ4f/U5Z7rVGyDnGzjvOMrjLi3vWSw6SxWBNol/JZvkr0r41ZRbp7JTvXPG+9PtsxetiLw5CV0y1zr/i9eA3o4qeiwt7bDvWfmPDDWYO+w3IiGbe4EbZ9BH5VlhXIfkPnv/elHSFMT8C3YYU0aJBJtDdgloVnfQIJqrSh2yM1YrLumqINkSyFNl+IZS4q8BnPjYgp2KJ6rNQTrltJWDYrtBiLN1cR1c0rd/99ZcxzTHMeao2muJsNyPZ3Tob4Vw8sLleO/7NgjnOn0/C9z9tCUVIzAkwAAAABJRU5ErkJggg==\""
         },
         {
@@ -717,14 +708,14 @@
           ],
           "assets": [],
           "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "issuerId": 174,
+          "issuerId": 173,
           "issuerName": "./src/components/Layout/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 174,
+              "moduleId": 173,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
               "module": "./src/components/Layout/index.js",
               "moduleName": "./src/components/Layout/index.js",
@@ -795,14 +786,14 @@
           ],
           "assets": [],
           "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "issuerId": 174,
+          "issuerId": 173,
           "issuerName": "./src/components/Layout/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 174,
+              "moduleId": 173,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
               "module": "./src/components/Layout/index.js",
               "moduleName": "./src/components/Layout/index.js",
@@ -834,14 +825,14 @@
           ],
           "assets": [],
           "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "issuerId": 174,
+          "issuerId": 173,
           "issuerName": "./src/components/Layout/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 174,
+              "moduleId": 173,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
               "module": "./src/components/Layout/index.js",
               "moduleName": "./src/components/Layout/index.js",
@@ -1861,15 +1852,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 7950,
+      "size": 7632,
       "names": [
         "src/pages/Home"
       ],
       "files": [
-        "templates/src/pages/Home.7e505100.js",
-        "templates/src/pages/Home.7e505100.js.map"
+        "templates/src/pages/Home.29c7f88e.js",
+        "templates/src/pages/Home.29c7f88e.js.map"
       ],
-      "hash": "7e505100034c87204f1d",
+      "hash": "29c7f88e5f245fbee12d",
       "parents": [
         2
       ],
@@ -1880,7 +1871,7 @@
           "name": "./src/pages/Home.js",
           "index": 131,
           "index2": 136,
-          "size": 1393,
+          "size": 1075,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1919,58 +1910,10 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Layout = require('../components/Layout');\n\nvar _Layout2 = _interopRequireDefault(_Layout);\n\nvar _Head = require('../components/Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders Home component\n * @returns {JSX}\n */\nvar Home = function Home() {\n    return _react2.default.createElement(\n        _Layout2.default,\n        null,\n        _react2.default.createElement(_Head2.default, {\n            title: 'Elena Solonovich - portfolio',\n            metaDescription: 'Elena Solonovich - portfolio',\n            metaKeywords: 'Elena Solonovich - portfolio' }),\n        _react2.default.createElement(\n            'nav',\n            null,\n            _react2.default.createElement(\n                _reactStatic.Link,\n                { exact: true, to: '/' },\n                'Home'\n            ),\n            _react2.default.createElement('br', null),\n            _react2.default.createElement(\n                _reactStatic.Link,\n                { to: '/dms' },\n                'DMS'\n            )\n        )\n    );\n};\n\nexports.default = (0, _reactStatic.withSiteData)(Home);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Layout = require('../components/Layout');\n\nvar _Layout2 = _interopRequireDefault(_Layout);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders Home component\n * @returns {JSX}\n */\nvar Home = function Home() {\n    return _react2.default.createElement(\n        _Layout2.default,\n        null,\n        _react2.default.createElement(\n            'nav',\n            null,\n            _react2.default.createElement(\n                _reactStatic.Link,\n                { exact: true, to: '/' },\n                'Home'\n            ),\n            _react2.default.createElement('br', null),\n            _react2.default.createElement(\n                _reactStatic.Link,\n                { to: '/dms' },\n                'DMS'\n            )\n        )\n    );\n};\n\nexports.default = (0, _reactStatic.withSiteData)(Home);"
         },
         {
           "id": 173,
-          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-          "name": "./src/components/Head/index.js",
-          "index": 133,
-          "index2": 129,
-          "size": 1489,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0,
-            1
-          ],
-          "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
-          "issuerId": 51,
-          "issuerName": "./src/pages/Home.js",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 51,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
-              "module": "./src/pages/Home.js",
-              "moduleName": "./src/pages/Home.js",
-              "type": "cjs require",
-              "userRequest": "../components/Head",
-              "loc": "17:12-41"
-            },
-            {
-              "moduleId": 174,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-              "module": "./src/components/Layout/index.js",
-              "moduleName": "./src/components/Layout/index.js",
-              "type": "cjs require",
-              "userRequest": "../Head",
-              "loc": "15:12-30"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _favicon32x = require('../../assets/images/favicon-32x32.png');\n\nvar _favicon32x2 = _interopRequireDefault(_favicon32x);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders HeadContainer component\n * @param {Object}\n * @returns {JSX}\n */\nvar HeadContainer = function HeadContainer(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords;\n    return _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('meta', { name: 'Description', content: metaDescription }),\n        _react2.default.createElement('meta', { name: 'Keywords', content: metaKeywords }),\n        _react2.default.createElement(\n            'title',\n            null,\n            title\n        ),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: _favicon32x2.default })\n    );\n};\n\nHeadContainer.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string\n};\n\nexports.default = HeadContainer;"
-        },
-        {
-          "id": 174,
           "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
           "name": "./src/components/Layout/index.js",
           "index": 132,
@@ -1985,9 +1928,9 @@
             1
           ],
           "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/CaseDMS.js",
-          "issuerId": 52,
-          "issuerName": "./src/pages/CaseDMS.js",
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
+          "issuerId": 51,
+          "issuerName": "./src/pages/Home.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -2018,6 +1961,45 @@
           "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _Head = require('../Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nvar _Header = require('../Header');\n\nvar _Header2 = _interopRequireDefault(_Header);\n\nvar _Main = require('../Main');\n\nvar _Main2 = _interopRequireDefault(_Main);\n\nvar _Footer = require('../Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders Layout component\n * @param {Object}\n * @returns {JSX}\n */\nvar Layout = function Layout(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords,\n        children = _ref.children;\n    return _react2.default.createElement(\n        'div',\n        { className: 'Layout' },\n        _react2.default.createElement(_Head2.default, {\n            title: title,\n            metaDescription: metaDescription,\n            metaKeywords: metaKeywords }),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__header' },\n            _react2.default.createElement(_Header2.default, null)\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__main' },\n            _react2.default.createElement(\n                _Main2.default,\n                null,\n                children\n            )\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__footer' },\n            _react2.default.createElement(_Footer2.default, null)\n        )\n    );\n};\n\nLayout.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string,\n    children: _propTypes2.default.node\n};\n\nLayout.defaultProps = {\n    title: 'Alena Salanovich - portfolio',\n    metaDescription: 'Alena Salanovich - portfolio',\n    metaKeywords: 'Alena Salanovich - portfolio'\n};\n\nexports.default = Layout;"
         },
         {
+          "id": 174,
+          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
+          "name": "./src/components/Head/index.js",
+          "index": 133,
+          "index2": 129,
+          "size": 1489,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0,
+            1
+          ],
+          "assets": [],
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+          "issuerId": 173,
+          "issuerName": "./src/components/Layout/index.js",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 173,
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+              "module": "./src/components/Layout/index.js",
+              "moduleName": "./src/components/Layout/index.js",
+              "type": "cjs require",
+              "userRequest": "../Head",
+              "loc": "15:12-30"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 5,
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _favicon32x = require('../../assets/images/favicon-32x32.png');\n\nvar _favicon32x2 = _interopRequireDefault(_favicon32x);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders HeadContainer component\n * @param {Object}\n * @returns {JSX}\n */\nvar HeadContainer = function HeadContainer(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords;\n    return _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('meta', { name: 'Description', content: metaDescription }),\n        _react2.default.createElement('meta', { name: 'Keywords', content: metaKeywords }),\n        _react2.default.createElement(\n            'title',\n            null,\n            title\n        ),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: _favicon32x2.default })\n    );\n};\n\nHeadContainer.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string\n};\n\nexports.default = HeadContainer;"
+        },
+        {
           "id": 175,
           "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/url-loader/index.js??ref--0-oneOf-9!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/assets/images/favicon-32x32.png",
           "name": "./src/assets/images/favicon-32x32.png",
@@ -2034,14 +2016,14 @@
           ],
           "assets": [],
           "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-          "issuerId": 173,
+          "issuerId": 174,
           "issuerName": "./src/components/Head/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 173,
+              "moduleId": 174,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
               "module": "./src/components/Head/index.js",
               "moduleName": "./src/components/Head/index.js",
@@ -2053,7 +2035,7 @@
           "usedExports": true,
           "providedExports": null,
           "optimizationBailout": [],
-          "depth": 5,
+          "depth": 6,
           "source": "module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAu5JREFUWAm9l01IVFEUx39vmsYwP/ugorISK0ozgkJqE0gGgRFURERUC0GEVtUmMBhoGy2CcGNB0SKICiKyWgh9rBJcZGURqGSShSmaEJo6nfPuvJ7jaL6rM3PgvXfPufee///dj3PvcZgipy/FShmjBof9MSgiRs6UJnaqw7ADX8TPc8I03rrsvJ/sQOqMRKOxSOcoV0Wri8UIefZUfh2HCfHXsCHCuWjUGVXfLgEF7xihSfRKNWZAmouzOKAk3D+N/3mmwPX/KuOYOO6cj/M2XcM+02i607GA8pAuuEyDKykXU7BDutpnYpl2u2CH3K2WdqTpARQ7PJd9HlkIO0th9QrIikDPd+jqgU55rERiTNiqgzTevB5qj8HSguSeLe/g9iMYGk6um8liFXByF8PZE4ngv0d81zu2wJJ8Xw9SshqB3dshLx6YP3bAjQfwox8K8+DwPujtM1MRBNhrY0VA59yTp68NuOoDQ4aMV2fztZqC/kHfdck6vzyfkhWB1g8wPm7gqvfCyWrIz50PPHanXncv3HkMf8YMaNUeuHJBiByE7EVzI+KcuihB0VJWLYeaI1BS5Hcc/GXIvWnzbUFKcyLgOd5VBofkDF270rPAzYfwosXXZytZrYGpzjTw1F+Du3qTiMvRKq8U7DsvAh5E0yu5c30zmsaJAouFaUVAF1p9LZSVeNDmq2eDFwEn5NI1OTomtkzWrAJR3XHYKPv//BnQ4f/U5Z7rVGyDnGzjvOMrjLi3vWSw6SxWBNol/JZvkr0r41ZRbp7JTvXPG+9PtsxetiLw5CV0y1zr/i9eA3o4qeiwt7bDvWfmPDDWYO+w3IiGbe4EbZ9BH5VlhXIfkPnv/elHSFMT8C3YYU0aJBJtDdgloVnfQIJqrSh2yM1YrLumqINkSyFNl+IZS4q8BnPjYgp2KJ6rNQTrltJWDYrtBiLN1cR1c0rd/99ZcxzTHMeao2muJsNyPZ3Tob4Vw8sLleO/7NgjnOn0/C9z9tCUVIzAkwAAAABJRU5ErkJggg==\""
         },
         {
@@ -2073,14 +2055,14 @@
           ],
           "assets": [],
           "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "issuerId": 174,
+          "issuerId": 173,
           "issuerName": "./src/components/Layout/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 174,
+              "moduleId": 173,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
               "module": "./src/components/Layout/index.js",
               "moduleName": "./src/components/Layout/index.js",
@@ -2151,14 +2133,14 @@
           ],
           "assets": [],
           "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "issuerId": 174,
+          "issuerId": 173,
           "issuerName": "./src/components/Layout/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 174,
+              "moduleId": 173,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
               "module": "./src/components/Layout/index.js",
               "moduleName": "./src/components/Layout/index.js",
@@ -2190,14 +2172,14 @@
           ],
           "assets": [],
           "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "issuerId": 174,
+          "issuerId": 173,
           "issuerName": "./src/components/Layout/index.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "reasons": [
             {
-              "moduleId": 174,
+              "moduleId": 173,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
               "module": "./src/components/Layout/index.js",
               "moduleName": "./src/components/Layout/index.js",
@@ -2277,9 +2259,9 @@
       ],
       "files": [
         "main.ff62a706.js",
-        "styles.4685926d.css",
+        "styles.32918e4b.css",
         "main.ff62a706.js.map",
-        "styles.4685926d.css.map"
+        "styles.32918e4b.css.map"
       ],
       "hash": "ff62a70646028caa93f4",
       "parents": [
@@ -2652,18 +2634,18 @@
             },
             {
               "moduleId": 173,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-              "module": "./src/components/Head/index.js",
-              "moduleName": "./src/components/Head/index.js",
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+              "module": "./src/components/Layout/index.js",
+              "moduleName": "./src/components/Layout/index.js",
               "type": "cjs require",
               "userRequest": "react",
               "loc": "7:13-29"
             },
             {
               "moduleId": 174,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-              "module": "./src/components/Layout/index.js",
-              "moduleName": "./src/components/Layout/index.js",
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
+              "module": "./src/components/Head/index.js",
+              "moduleName": "./src/components/Head/index.js",
               "type": "cjs require",
               "userRequest": "react",
               "loc": "7:13-29"
@@ -2942,18 +2924,18 @@
             },
             {
               "moduleId": 173,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-              "module": "./src/components/Head/index.js",
-              "moduleName": "./src/components/Head/index.js",
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+              "module": "./src/components/Layout/index.js",
+              "moduleName": "./src/components/Layout/index.js",
               "type": "cjs require",
               "userRequest": "prop-types",
               "loc": "11:17-38"
             },
             {
               "moduleId": 174,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-              "module": "./src/components/Layout/index.js",
-              "moduleName": "./src/components/Layout/index.js",
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
+              "module": "./src/components/Head/index.js",
+              "moduleName": "./src/components/Head/index.js",
               "type": "cjs require",
               "userRequest": "prop-types",
               "loc": "11:17-38"
@@ -3375,9 +3357,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createMemoryHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+          "issuerId": 117,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4331,9 +4313,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createMemoryHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+          "issuerId": 117,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4804,9 +4786,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createMemoryHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+          "issuerId": 117,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4860,9 +4842,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createMemoryHistory.js",
-          "issuerId": 118,
-          "issuerName": "./node_modules/history/createMemoryHistory.js",
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+          "issuerId": 117,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -4960,7 +4942,7 @@
               "loc": "33:19-42"
             },
             {
-              "moduleId": 173,
+              "moduleId": 174,
               "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
               "module": "./src/components/Head/index.js",
               "moduleName": "./src/components/Head/index.js",
@@ -5876,9 +5858,9 @@
             2
           ],
           "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createHashHistory.js",
-          "issuerId": 119,
-          "issuerName": "./node_modules/history/createHashHistory.js",
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+          "issuerId": 117,
+          "issuerName": "./node_modules/history/createBrowserHistory.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -10861,10 +10843,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.d20e7d82.js",
-        "bootstrap.d20e7d82.js.map"
+        "bootstrap.15480131.js",
+        "bootstrap.15480131.js.map"
       ],
-      "hash": "d20e7d8207110d60c857",
+      "hash": "1548013163a6f7b3e1a9",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -11238,18 +11220,18 @@
         },
         {
           "moduleId": 173,
-          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-          "module": "./src/components/Head/index.js",
-          "moduleName": "./src/components/Head/index.js",
+          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+          "module": "./src/components/Layout/index.js",
+          "moduleName": "./src/components/Layout/index.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "7:13-29"
         },
         {
           "moduleId": 174,
-          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "module": "./src/components/Layout/index.js",
-          "moduleName": "./src/components/Layout/index.js",
+          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
+          "module": "./src/components/Head/index.js",
+          "moduleName": "./src/components/Head/index.js",
           "type": "cjs require",
           "userRequest": "react",
           "loc": "7:13-29"
@@ -11528,18 +11510,18 @@
         },
         {
           "moduleId": 173,
-          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-          "module": "./src/components/Head/index.js",
-          "moduleName": "./src/components/Head/index.js",
+          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+          "module": "./src/components/Layout/index.js",
+          "moduleName": "./src/components/Layout/index.js",
           "type": "cjs require",
           "userRequest": "prop-types",
           "loc": "11:17-38"
         },
         {
           "moduleId": 174,
-          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "module": "./src/components/Layout/index.js",
-          "moduleName": "./src/components/Layout/index.js",
+          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
+          "module": "./src/components/Head/index.js",
+          "moduleName": "./src/components/Head/index.js",
           "type": "cjs require",
           "userRequest": "prop-types",
           "loc": "11:17-38"
@@ -11961,9 +11943,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createMemoryHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+      "issuerId": 117,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -12917,9 +12899,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createMemoryHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+      "issuerId": 117,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13390,9 +13372,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createMemoryHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+      "issuerId": 117,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13446,9 +13428,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createMemoryHistory.js",
-      "issuerId": 118,
-      "issuerName": "./node_modules/history/createMemoryHistory.js",
+      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+      "issuerId": 117,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -13546,7 +13528,7 @@
           "loc": "33:19-42"
         },
         {
-          "moduleId": 173,
+          "moduleId": 174,
           "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
           "module": "./src/components/Head/index.js",
           "moduleName": "./src/components/Head/index.js",
@@ -14462,9 +14444,9 @@
         2
       ],
       "assets": [],
-      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createHashHistory.js",
-      "issuerId": 119,
-      "issuerName": "./node_modules/history/createHashHistory.js",
+      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/history/createBrowserHistory.js",
+      "issuerId": 117,
+      "issuerName": "./node_modules/history/createBrowserHistory.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -14735,7 +14717,7 @@
       "name": "./src/pages/Home.js",
       "index": 131,
       "index2": 136,
-      "size": 1393,
+      "size": 1075,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -14774,7 +14756,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Layout = require('../components/Layout');\n\nvar _Layout2 = _interopRequireDefault(_Layout);\n\nvar _Head = require('../components/Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders Home component\n * @returns {JSX}\n */\nvar Home = function Home() {\n    return _react2.default.createElement(\n        _Layout2.default,\n        null,\n        _react2.default.createElement(_Head2.default, {\n            title: 'Elena Solonovich - portfolio',\n            metaDescription: 'Elena Solonovich - portfolio',\n            metaKeywords: 'Elena Solonovich - portfolio' }),\n        _react2.default.createElement(\n            'nav',\n            null,\n            _react2.default.createElement(\n                _reactStatic.Link,\n                { exact: true, to: '/' },\n                'Home'\n            ),\n            _react2.default.createElement('br', null),\n            _react2.default.createElement(\n                _reactStatic.Link,\n                { to: '/dms' },\n                'DMS'\n            )\n        )\n    );\n};\n\nexports.default = (0, _reactStatic.withSiteData)(Home);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _Layout = require('../components/Layout');\n\nvar _Layout2 = _interopRequireDefault(_Layout);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders Home component\n * @returns {JSX}\n */\nvar Home = function Home() {\n    return _react2.default.createElement(\n        _Layout2.default,\n        null,\n        _react2.default.createElement(\n            'nav',\n            null,\n            _react2.default.createElement(\n                _reactStatic.Link,\n                { exact: true, to: '/' },\n                'Home'\n            ),\n            _react2.default.createElement('br', null),\n            _react2.default.createElement(\n                _reactStatic.Link,\n                { to: '/dms' },\n                'DMS'\n            )\n        )\n    );\n};\n\nexports.default = (0, _reactStatic.withSiteData)(Home);"
     },
     {
       "id": 52,
@@ -19518,54 +19500,6 @@
     },
     {
       "id": 173,
-      "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-      "name": "./src/components/Head/index.js",
-      "index": 133,
-      "index2": 129,
-      "size": 1489,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        0,
-        1
-      ],
-      "assets": [],
-      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
-      "issuerId": 51,
-      "issuerName": "./src/pages/Home.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": 51,
-          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
-          "module": "./src/pages/Home.js",
-          "moduleName": "./src/pages/Home.js",
-          "type": "cjs require",
-          "userRequest": "../components/Head",
-          "loc": "17:12-41"
-        },
-        {
-          "moduleId": 174,
-          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-          "module": "./src/components/Layout/index.js",
-          "moduleName": "./src/components/Layout/index.js",
-          "type": "cjs require",
-          "userRequest": "../Head",
-          "loc": "15:12-30"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [],
-      "depth": 4,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _favicon32x = require('../../assets/images/favicon-32x32.png');\n\nvar _favicon32x2 = _interopRequireDefault(_favicon32x);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders HeadContainer component\n * @param {Object}\n * @returns {JSX}\n */\nvar HeadContainer = function HeadContainer(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords;\n    return _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('meta', { name: 'Description', content: metaDescription }),\n        _react2.default.createElement('meta', { name: 'Keywords', content: metaKeywords }),\n        _react2.default.createElement(\n            'title',\n            null,\n            title\n        ),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: _favicon32x2.default })\n    );\n};\n\nHeadContainer.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string\n};\n\nexports.default = HeadContainer;"
-    },
-    {
-      "id": 174,
       "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
       "name": "./src/components/Layout/index.js",
       "index": 132,
@@ -19580,9 +19514,9 @@
         1
       ],
       "assets": [],
-      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/CaseDMS.js",
-      "issuerId": 52,
-      "issuerName": "./src/pages/CaseDMS.js",
+      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/pages/Home.js",
+      "issuerId": 51,
+      "issuerName": "./src/pages/Home.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
@@ -19613,6 +19547,45 @@
       "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _Head = require('../Head');\n\nvar _Head2 = _interopRequireDefault(_Head);\n\nvar _Header = require('../Header');\n\nvar _Header2 = _interopRequireDefault(_Header);\n\nvar _Main = require('../Main');\n\nvar _Main2 = _interopRequireDefault(_Main);\n\nvar _Footer = require('../Footer');\n\nvar _Footer2 = _interopRequireDefault(_Footer);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders Layout component\n * @param {Object}\n * @returns {JSX}\n */\nvar Layout = function Layout(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords,\n        children = _ref.children;\n    return _react2.default.createElement(\n        'div',\n        { className: 'Layout' },\n        _react2.default.createElement(_Head2.default, {\n            title: title,\n            metaDescription: metaDescription,\n            metaKeywords: metaKeywords }),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__header' },\n            _react2.default.createElement(_Header2.default, null)\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__main' },\n            _react2.default.createElement(\n                _Main2.default,\n                null,\n                children\n            )\n        ),\n        _react2.default.createElement(\n            'div',\n            { className: 'Layout__footer' },\n            _react2.default.createElement(_Footer2.default, null)\n        )\n    );\n};\n\nLayout.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string,\n    children: _propTypes2.default.node\n};\n\nLayout.defaultProps = {\n    title: 'Alena Salanovich - portfolio',\n    metaDescription: 'Alena Salanovich - portfolio',\n    metaKeywords: 'Alena Salanovich - portfolio'\n};\n\nexports.default = Layout;"
     },
     {
+      "id": 174,
+      "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
+      "name": "./src/components/Head/index.js",
+      "index": 133,
+      "index2": 129,
+      "size": 1489,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [],
+      "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+      "issuerId": 173,
+      "issuerName": "./src/components/Layout/index.js",
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "reasons": [
+        {
+          "moduleId": 173,
+          "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
+          "module": "./src/components/Layout/index.js",
+          "moduleName": "./src/components/Layout/index.js",
+          "type": "cjs require",
+          "userRequest": "../Head",
+          "loc": "15:12-30"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 5,
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _propTypes = require('prop-types');\n\nvar _propTypes2 = _interopRequireDefault(_propTypes);\n\nvar _reactStatic = require('react-static');\n\nvar _favicon32x = require('../../assets/images/favicon-32x32.png');\n\nvar _favicon32x2 = _interopRequireDefault(_favicon32x);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n/**\n * Renders HeadContainer component\n * @param {Object}\n * @returns {JSX}\n */\nvar HeadContainer = function HeadContainer(_ref) {\n    var title = _ref.title,\n        metaDescription = _ref.metaDescription,\n        metaKeywords = _ref.metaKeywords;\n    return _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('meta', { name: 'Description', content: metaDescription }),\n        _react2.default.createElement('meta', { name: 'Keywords', content: metaKeywords }),\n        _react2.default.createElement(\n            'title',\n            null,\n            title\n        ),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: _favicon32x2.default })\n    );\n};\n\nHeadContainer.propTypes = {\n    title: _propTypes2.default.string,\n    metaDescription: _propTypes2.default.string,\n    metaKeywords: _propTypes2.default.string\n};\n\nexports.default = HeadContainer;"
+    },
+    {
       "id": 175,
       "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/url-loader/index.js??ref--0-oneOf-9!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/assets/images/favicon-32x32.png",
       "name": "./src/assets/images/favicon-32x32.png",
@@ -19629,14 +19602,14 @@
       ],
       "assets": [],
       "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
-      "issuerId": 173,
+      "issuerId": 174,
       "issuerName": "./src/components/Head/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 173,
+          "moduleId": 174,
           "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Head/index.js",
           "module": "./src/components/Head/index.js",
           "moduleName": "./src/components/Head/index.js",
@@ -19648,7 +19621,7 @@
       "usedExports": true,
       "providedExports": null,
       "optimizationBailout": [],
-      "depth": 5,
+      "depth": 6,
       "source": "module.exports = \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAu5JREFUWAm9l01IVFEUx39vmsYwP/ugorISK0ozgkJqE0gGgRFURERUC0GEVtUmMBhoGy2CcGNB0SKICiKyWgh9rBJcZGURqGSShSmaEJo6nfPuvJ7jaL6rM3PgvXfPufee///dj3PvcZgipy/FShmjBof9MSgiRs6UJnaqw7ADX8TPc8I03rrsvJ/sQOqMRKOxSOcoV0Wri8UIefZUfh2HCfHXsCHCuWjUGVXfLgEF7xihSfRKNWZAmouzOKAk3D+N/3mmwPX/KuOYOO6cj/M2XcM+02i607GA8pAuuEyDKykXU7BDutpnYpl2u2CH3K2WdqTpARQ7PJd9HlkIO0th9QrIikDPd+jqgU55rERiTNiqgzTevB5qj8HSguSeLe/g9iMYGk6um8liFXByF8PZE4ngv0d81zu2wJJ8Xw9SshqB3dshLx6YP3bAjQfwox8K8+DwPujtM1MRBNhrY0VA59yTp68NuOoDQ4aMV2fztZqC/kHfdck6vzyfkhWB1g8wPm7gqvfCyWrIz50PPHanXncv3HkMf8YMaNUeuHJBiByE7EVzI+KcuihB0VJWLYeaI1BS5Hcc/GXIvWnzbUFKcyLgOd5VBofkDF270rPAzYfwosXXZytZrYGpzjTw1F+Du3qTiMvRKq8U7DsvAh5E0yu5c30zmsaJAouFaUVAF1p9LZSVeNDmq2eDFwEn5NI1OTomtkzWrAJR3XHYKPv//BnQ4f/U5Z7rVGyDnGzjvOMrjLi3vWSw6SxWBNol/JZvkr0r41ZRbp7JTvXPG+9PtsxetiLw5CV0y1zr/i9eA3o4qeiwt7bDvWfmPDDWYO+w3IiGbe4EbZ9BH5VlhXIfkPnv/elHSFMT8C3YYU0aJBJtDdgloVnfQIJqrSh2yM1YrLumqINkSyFNl+IZS4q8BnPjYgp2KJ6rNQTrltJWDYrtBiLN1cR1c0rd/99ZcxzTHMeao2muJsNyPZ3Tob4Vw8sLleO/7NgjnOn0/C9z9tCUVIzAkwAAAABJRU5ErkJggg==\""
     },
     {
@@ -19668,14 +19641,14 @@
       ],
       "assets": [],
       "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-      "issuerId": 174,
+      "issuerId": 173,
       "issuerName": "./src/components/Layout/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 174,
+          "moduleId": 173,
           "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
           "module": "./src/components/Layout/index.js",
           "moduleName": "./src/components/Layout/index.js",
@@ -19746,14 +19719,14 @@
       ],
       "assets": [],
       "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-      "issuerId": 174,
+      "issuerId": 173,
       "issuerName": "./src/components/Layout/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 174,
+          "moduleId": 173,
           "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
           "module": "./src/components/Layout/index.js",
           "moduleName": "./src/components/Layout/index.js",
@@ -19785,14 +19758,14 @@
       ],
       "assets": [],
       "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
-      "issuerId": 174,
+      "issuerId": 173,
       "issuerName": "./src/components/Layout/index.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "reasons": [
         {
-          "moduleId": 174,
+          "moduleId": 173,
           "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Layout/index.js",
           "module": "./src/components/Layout/index.js",
           "moduleName": "./src/components/Layout/index.js",
@@ -21555,190 +21528,6 @@
           "initial": true,
           "entry": true,
           "extraAsync": false,
-          "size": 2425,
-          "names": [],
-          "files": [
-            "extract-text-webpack-plugin-output-filename"
-          ],
-          "hash": "c9b6137ca7e68f658077",
-          "parents": [],
-          "modules": [
-            {
-              "id": 0,
-              "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
-              "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-              "index": 0,
-              "index2": 1,
-              "size": 165,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": null,
-              "issuerId": null,
-              "issuerName": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 0,
-              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"\", \"\"]);\n\n// exports\n"
-            },
-            {
-              "id": 1,
-              "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/lib/css-base.js",
-              "name": "./node_modules/css-loader/lib/css-base.js",
-              "index": 1,
-              "index2": 0,
-              "size": 2260,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
-              "issuerId": 0,
-              "issuerName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [
-                {
-                  "moduleId": 0,
-                  "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
-                  "module": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-                  "type": "cjs require",
-                  "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
-                  "loc": "1:27-86"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 1,
-              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-            }
-          ],
-          "filteredModules": 0,
-          "origins": [
-            {
-              "moduleId": 0,
-              "module": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-              "loc": "",
-              "reasons": []
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "id": 0,
-          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
-          "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-          "index": 0,
-          "index2": 1,
-          "size": 165,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 0,
-          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"\", \"\"]);\n\n// exports\n"
-        },
-        {
-          "id": 1,
-          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/lib/css-base.js",
-          "name": "./node_modules/css-loader/lib/css-base.js",
-          "index": 1,
-          "index2": 0,
-          "size": 2260,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
-          "issuerId": 0,
-          "issuerName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
-              "module": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
-              "type": "cjs require",
-              "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
-              "loc": "1:27-86"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 1,
-          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-        }
-      ],
-      "filteredModules": 0,
-      "children": [],
-      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-0-2!node_modules/react-static/node_modules/postcss-loader/lib/index.js!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!src/components/Footer/index.scss"
-    },
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": "https://slabadena.github.io/portfolio/",
-      "assetsByChunkName": {},
-      "assets": [],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "undefined": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "extract-text-webpack-plugin-output-filename"
-          ]
-        }
-      },
-      "chunks": [
-        {
-          "id": 0,
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "extraAsync": false,
           "size": 3032,
           "names": [],
           "files": [
@@ -21898,6 +21687,190 @@
       "filteredModules": 0,
       "children": [],
       "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-0-2!node_modules/react-static/node_modules/postcss-loader/lib/index.js!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!src/components/Spinner/index.scss"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "https://slabadena.github.io/portfolio/",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "extract-text-webpack-plugin-output-filename"
+          ]
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "extraAsync": false,
+          "size": 2425,
+          "names": [],
+          "files": [
+            "extract-text-webpack-plugin-output-filename"
+          ],
+          "hash": "c9b6137ca7e68f658077",
+          "parents": [],
+          "modules": [
+            {
+              "id": 0,
+              "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
+              "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 165,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"\", \"\"]);\n\n// exports\n"
+            },
+            {
+              "id": 1,
+              "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/lib/css-base.js",
+              "name": "./node_modules/css-loader/lib/css-base.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2260,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "assets": [],
+              "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
+              "issuerId": 0,
+              "issuerName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "reasons": [
+                {
+                  "moduleId": 0,
+                  "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
+                  "module": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+                  "type": "cjs require",
+                  "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
+                  "loc": "1:27-86"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 1,
+              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "moduleId": 0,
+              "module": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+              "loc": "",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
+          "name": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+          "index": 0,
+          "index2": 1,
+          "size": 165,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"\", \"\"]);\n\n// exports\n"
+        },
+        {
+          "id": 1,
+          "identifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/lib/css-base.js",
+          "name": "./node_modules/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2260,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "assets": [],
+          "issuer": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
+          "issuerId": 0,
+          "issuerName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "reasons": [
+            {
+              "moduleId": 0,
+              "moduleIdentifier": "/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/react-static/node_modules/postcss-loader/lib/index.js!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/src/components/Footer/index.scss",
+              "module": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+              "moduleName": "./node_modules/css-loader??ref--0-oneOf-0-2!./node_modules/react-static/node_modules/postcss-loader/lib!./node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!./src/components/Footer/index.scss",
+              "type": "cjs require",
+              "userRequest": "../../../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-86"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 1,
+          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-0-2!node_modules/react-static/node_modules/postcss-loader/lib/index.js!node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!src/components/Footer/index.scss"
     }
   ]
 }

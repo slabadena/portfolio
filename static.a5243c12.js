@@ -70,7 +70,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "https://slabadena.github.io/portfolio/";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 10);
+/******/ 	return __webpack_require__(__webpack_require__.s = 9);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -339,10 +339,6 @@ var _Layout = __webpack_require__(7);
 
 var _Layout2 = _interopRequireDefault(_Layout);
 
-var _Head = __webpack_require__(8);
-
-var _Head2 = _interopRequireDefault(_Head);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /**
@@ -353,10 +349,6 @@ var Home = function Home() {
     return _react2.default.createElement(
         _Layout2.default,
         null,
-        _react2.default.createElement(_Head2.default, {
-            title: 'Elena Solonovich - portfolio',
-            metaDescription: 'Elena Solonovich - portfolio',
-            metaKeywords: 'Elena Solonovich - portfolio' }),
         _react2.default.createElement(
             'nav',
             null,
@@ -396,7 +388,7 @@ var _propTypes = __webpack_require__(1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _Head = __webpack_require__(8);
+var _Head = __webpack_require__(22);
 
 var _Head2 = _interopRequireDefault(_Head);
 
@@ -470,64 +462,6 @@ exports.default = Layout;
 
 /***/ }),
 /* 8 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-
-var _react = __webpack_require__(0);
-
-var _react2 = _interopRequireDefault(_react);
-
-var _propTypes = __webpack_require__(1);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-var _reactStatic = __webpack_require__(3);
-
-var _favicon32x = __webpack_require__(23);
-
-var _favicon32x2 = _interopRequireDefault(_favicon32x);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-/**
- * Renders HeadContainer component
- * @param {Object}
- * @returns {JSX}
- */
-var HeadContainer = function HeadContainer(_ref) {
-    var title = _ref.title,
-        metaDescription = _ref.metaDescription,
-        metaKeywords = _ref.metaKeywords;
-    return _react2.default.createElement(
-        _reactStatic.Head,
-        null,
-        _react2.default.createElement('meta', { name: 'Description', content: metaDescription }),
-        _react2.default.createElement('meta', { name: 'Keywords', content: metaKeywords }),
-        _react2.default.createElement(
-            'title',
-            null,
-            title
-        ),
-        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: _favicon32x2.default })
-    );
-};
-
-HeadContainer.propTypes = {
-    title: _propTypes2.default.string,
-    metaDescription: _propTypes2.default.string,
-    metaKeywords: _propTypes2.default.string
-};
-
-exports.default = HeadContainer;
-
-/***/ }),
-/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -663,7 +597,7 @@ var CaseDMS = function CaseDMS() {
 exports.default = (0, _reactStatic.withSiteData)(CaseDMS);
 
 /***/ }),
-/* 10 */
+/* 9 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -677,11 +611,11 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactDom = __webpack_require__(11);
+var _reactDom = __webpack_require__(10);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _Root = __webpack_require__(12);
+var _Root = __webpack_require__(11);
 
 var _Root2 = _interopRequireDefault(_Root);
 
@@ -704,13 +638,13 @@ if (typeof document !== 'undefined') {
 }
 
 /***/ }),
-/* 11 */
+/* 10 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-dom");
 
 /***/ }),
-/* 12 */
+/* 11 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -726,9 +660,9 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(3);
 
-var _reactHotLoader = __webpack_require__(13);
+var _reactHotLoader = __webpack_require__(12);
 
-var _reactStaticRoutes = __webpack_require__(14);
+var _reactStaticRoutes = __webpack_require__(13);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
@@ -757,13 +691,13 @@ exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ }),
-/* 13 */
+/* 12 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 14 */
+/* 13 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -773,15 +707,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path2 = __webpack_require__(15);
+var _path2 = __webpack_require__(14);
 
 var _path3 = _interopRequireDefault(_path2);
 
-var _importCss2 = __webpack_require__(16);
+var _importCss2 = __webpack_require__(15);
 
 var _importCss3 = _interopRequireDefault(_importCss2);
 
-var _universalImport2 = __webpack_require__(17);
+var _universalImport2 = __webpack_require__(16);
 
 var _universalImport3 = _interopRequireDefault(_universalImport2);
 
@@ -793,9 +727,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(18);
+var _reactRouterDom = __webpack_require__(17);
 
-var _reactUniversalComponent = __webpack_require__(19);
+var _reactUniversalComponent = __webpack_require__(18);
 
 var _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);
 
@@ -849,7 +783,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
   id: '../src/pages/CaseDMS',
   file: '/Users/dmitrijmalofeev/Documents/Work/geekon/helen-portfolio/html/dist/react-static-routes.js',
   load: function load() {
-    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 9)), (0, _importCss3.default)('src/pages/CaseDMS', {
+    return Promise.all([new Promise(function(resolve) { resolve(); }).then(__webpack_require__.bind(null, 8)), (0, _importCss3.default)('src/pages/CaseDMS', {
       disableWarnings: true
     })]).then(function (proms) {
       return proms[0];
@@ -859,7 +793,7 @@ var t_1 = (0, _reactUniversalComponent2.default)((0, _universalImport3.default)(
     return _path3.default.join(__dirname, '../src/pages/CaseDMS');
   },
   resolve: function resolve() {
-    return /*require.resolve*/(9);
+    return /*require.resolve*/(8);
   },
   chunkName: function chunkName() {
     return 'src/pages/CaseDMS';
@@ -946,31 +880,31 @@ exports.default = Routes;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/importCss");
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -985,7 +919,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _requireUniversalModule = __webpack_require__(20);
+var _requireUniversalModule = __webpack_require__(19);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -1000,7 +934,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(21);
+var _reportChunks = __webpack_require__(20);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -1017,7 +951,7 @@ var _propTypes = __webpack_require__(1);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(22);
+var _hoistNonReactStatics = __webpack_require__(21);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -1317,7 +1251,7 @@ exports.default = universal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(4)(module)))
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1499,7 +1433,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1562,10 +1496,68 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(1);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _reactStatic = __webpack_require__(3);
+
+var _favicon32x = __webpack_require__(23);
+
+var _favicon32x2 = _interopRequireDefault(_favicon32x);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/**
+ * Renders HeadContainer component
+ * @param {Object}
+ * @returns {JSX}
+ */
+var HeadContainer = function HeadContainer(_ref) {
+    var title = _ref.title,
+        metaDescription = _ref.metaDescription,
+        metaKeywords = _ref.metaKeywords;
+    return _react2.default.createElement(
+        _reactStatic.Head,
+        null,
+        _react2.default.createElement('meta', { name: 'Description', content: metaDescription }),
+        _react2.default.createElement('meta', { name: 'Keywords', content: metaKeywords }),
+        _react2.default.createElement(
+            'title',
+            null,
+            title
+        ),
+        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: _favicon32x2.default })
+    );
+};
+
+HeadContainer.propTypes = {
+    title: _propTypes2.default.string,
+    metaDescription: _propTypes2.default.string,
+    metaKeywords: _propTypes2.default.string
+};
+
+exports.default = HeadContainer;
 
 /***/ }),
 /* 23 */
@@ -2345,4 +2337,4 @@ module.exports = require("lazysizes");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.58eee894.js.map
+//# sourceMappingURL=static.a5243c12.js.map
