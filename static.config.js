@@ -44,6 +44,10 @@ export default {
         {
             path: '/file-shark',
             component: 'src/pages/CaseFileShark',
+        },
+        {
+            path: '/dms-account',
+            component: 'src/pages/CaseDMSAccount',
         }
         // {
         //     path: '/about',

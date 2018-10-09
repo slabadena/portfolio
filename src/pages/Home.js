@@ -34,6 +34,10 @@ const Home = () => (
                     <li>
                         <Link to="/file-shark">File.Shark</Link>
                     </li>
+
+                    <li>
+                        <Link to="/dms-account">DMS Account</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
