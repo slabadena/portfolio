@@ -2779,7 +2779,7 @@ module.exports = __webpack_require__.p + "static/vis-shark-thank.8aa741aa.jpg";
 /* 93 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/vis-dms_acc-intro.aff6509d.jpg";
+module.exports = __webpack_require__.p + "static/vis-dms_acc-intro.88dffecf.jpg";
 
 /***/ }),
 /* 94 */
@@ -3153,4 +3153,4 @@ module.exports = require("lazysizes");
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.4a7a9e39.js.map
+//# sourceMappingURL=static.6d9b85a9.js.map
